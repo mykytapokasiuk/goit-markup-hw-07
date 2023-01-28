@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 766px;
+    }
+    .our-strengths-list {
+        column-gap: 24px;
+    }
+    .our-strengths-item {
+        width: calc((100% - 24px) / 2);
+    }
+    .our-strengths-title {
+        text-align: left;
+    }
+}

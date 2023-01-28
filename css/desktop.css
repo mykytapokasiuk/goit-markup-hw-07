@@ -1,0 +1,23 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+    }
+    .os-icons-list {
+        display: flex;
+    }
+    .our-strengths {
+        padding-top: 120px;
+    }
+    .our-strengths-item {
+        width: calc((100% - 72px) / 4);
+    }
+    .our-strengths-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-top: 8px;
+    }
+    .our-strengths-text {
+        font-weight: 400;
+    }
+}
