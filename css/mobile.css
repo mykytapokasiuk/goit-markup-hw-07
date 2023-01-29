@@ -1,8 +1,14 @@
 @media screen and (min-width: 480px) {
-    .container {
+    .our-strengths > .container {
         width: 426px;
     }
     .our-team > .container {
         width: 294px;
+    }
+    .customers > .container {
+        width: 426px;
+    }
+    .footer > .container {
+        width: 426px;
     }
 }

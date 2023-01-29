@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     /*!OUR STRENGTHS*/
-    .container {
+    .our-strengths > .container {
         width: 766px;
     }
     .our-strengths-list {
@@ -25,5 +25,30 @@
     }
     .our-team-item {
         width: calc((100% - 24px) / 2);
+    }
+    /*!CUSTOMERS*/
+    .customers > .container {
+        width: 582px;
+    }
+    .customers-icons-list {
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+    .customers-icons-item {
+        width: calc((100% - 48px) / 3);
+    }
+    /*!FOOTER*/
+    .footer > .container {
+        width: 526px;
+    }
+    .footer-container {
+        column-gap: 24px;
+        text-align: left;
+    }
+    .footer-subscribe-container {
+        justify-content: left;
+    }
+    .subscribe-form {
+        gap: 24px;
     }
 }

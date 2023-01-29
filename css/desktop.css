@@ -3,7 +3,7 @@
     .our-strengths {
         padding: 120px 0 0;
     }
-    .container {
+    .our-strengths > .container {
         width: 1158px;
     }
     .os-icons-list {
@@ -36,6 +36,9 @@
         padding: 120px 0px 120px 0px;
         text-align: center;
     }
+    .our-projects > .container {
+        width: 1158px;
+    }
     .our-projects-title {
         font-weight: 600;
         font-size: 36px;
@@ -66,5 +69,38 @@
     }
     .our-team-item {
         width: calc((100% - 72px) / 4);
+    }
+    /*!CUSTOMERS*/
+    .customers {
+        padding: 120px 0;
+    }
+    .customers > .container {
+        width: 1158px;
+    }
+    .customers-icons-list {
+        gap: 24px;
+    }
+    .customers-icons-item {
+        width: calc((100% - 120px) / 6);
+    }
+    /*!FOOTER*/
+    .footer {
+        padding: 100px 0;
+    }
+    .footer > .container {
+        width: 1158px;
+    }
+    .footer-container {
+        gap: 0;
+    }
+    .footer-social-container {
+        margin-left: 120px;
+    }
+    .footer-subscribe-container {
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .subscribe-form {
+        margin-top: 16px;
     }
 }
