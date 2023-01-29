@@ -2,4 +2,7 @@
     .container {
         width: 426px;
     }
+    .our-team > .container {
+        width: 294px;
+    }
 }

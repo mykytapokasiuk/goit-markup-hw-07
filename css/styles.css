@@ -63,6 +63,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 :focus {
     outline: transparent;
@@ -211,7 +212,7 @@ img {
 
 /*!OUR STRENGTHS*/
 .our-strengths {
-    padding-top: 96px;
+    padding: 96px 0;
     background-color: var(--primary-bg);
 }
 .our-strengths-list {
@@ -222,21 +223,8 @@ img {
 .our-strengths-item {
     width: 100%;
 }
-.os-icons-list {
-    display: flex;
-    gap: 24px;
-    height: 112px;
-}
-.os-icons-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc((100% - 72px) / 4);
-    background-color: var(--light);
-    border-radius: 4px;
-}
 .our-strengths-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
@@ -258,31 +246,6 @@ img {
 }
 
 /*!OUR PROJECTS*/
-.our-projects {
-    background-color: var(--primary-bg);
-    padding: 120px 0px 120px 0px;
-    text-align: center;
-}
-.our-projects-title,
-.our-team-title,
-.customers-title {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--dark);
-}
-.our-projects-list,
-.our-team-list {
-    display: flex;
-    gap: 24px;
-    margin-top: 72px;
-}
-.our-projects-item {
-    width: calc((100% - 48px) / 3);
-    border: 1px solid var(--accent);
-}
 /*!MEDIA*/
 @media screen and (max-width: 1199px) {
     .our-projects {
@@ -293,18 +256,32 @@ img {
 /*!OUR TEAM*/
 .our-team {
     background-color: var(--light);
-    padding: 120px 0px 120px 0px;
+    padding: 96px 0px;
     text-align: center;
 }
+.our-team-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+.our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    margin-top: 72px;
+}
 .our-team-item {
-    width: calc((100% - 72px) / 4);
+    width: 100%;
     background-color: var(--primary-bg);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .teammate-text-container {
-    padding: 32px 16px;
+    padding: 32px 14px;
 }
 .teammate-title {
     font-weight: 600;
@@ -350,6 +327,14 @@ img {
     background-color: var(--primary-bg);
     padding: 130px 0px 120px 0px;
     text-align: center;
+}
+.customers-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
 }
 .customers-icons-list {
     display: flex;

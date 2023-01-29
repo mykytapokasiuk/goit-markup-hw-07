@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+    /*!OUR STRENGTHS*/
     .container {
         width: 766px;
     }
@@ -10,5 +11,19 @@
     }
     .our-strengths-title {
         text-align: left;
+    }
+    /*!OUR TEAM*/
+    .our-team {
+        padding: 96px 0px 104px;
+    }
+    .our-team > .container {
+        width: 582px;
+    }
+    .our-team-list {
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+    .our-team-item {
+        width: calc((100% - 24px) / 2);
     }
 }

@@ -1,23 +1,70 @@
 @media screen and (min-width: 1200px) {
+    /*!OUR STRENGTHS*/
+    .our-strengths {
+        padding: 120px 0 0;
+    }
     .container {
         width: 1158px;
     }
     .os-icons-list {
         display: flex;
+        gap: 24px;
+        height: 112px;
     }
-    .our-strengths {
-        padding-top: 120px;
+    .os-icons-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc((100% - 72px) / 4);
+        background-color: var(--light);
+        border-radius: 4px;
     }
     .our-strengths-item {
         width: calc((100% - 72px) / 4);
     }
     .our-strengths-title {
-        font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         margin-top: 8px;
     }
     .our-strengths-text {
         font-weight: 400;
+    }
+    /*!OUR PROJECTS*/
+    .our-projects {
+        background-color: var(--primary-bg);
+        padding: 120px 0px 120px 0px;
+        text-align: center;
+    }
+    .our-projects-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--dark);
+    }
+    .our-projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-top: 72px;
+    }
+    .our-projects-item {
+        width: calc((100% - 48px) / 3);
+        border: 1px solid var(--accent);
+    }
+    /*!OUR TEAM*/
+    .our-team {
+        padding: 120px 0px;
+    }
+    .our-team > .container {
+        width: 1158px;
+    }
+    .our-team-list {
+        gap: 24px;
+    }
+    .our-team-item {
+        width: calc((100% - 72px) / 4);
     }
 }
