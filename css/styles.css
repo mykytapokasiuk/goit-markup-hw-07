@@ -159,42 +159,44 @@ img {
     color: var(--hover-focus);
 }
 
-/*!BIG BANNER*/
-.big-banner {
-    background-color: var(--dark);
-    text-align: center;
-    padding: 188px 0px;
+/*!HERO*/
+.hero > .container {
+    padding: 0;
+    width: 100%;
 }
-.big-banner-container {
-    max-width: 1440px;
-    height: 600px;
-    background-image: var(--bg-gradient), url(../images/big-banner-bg.jpg);
+.hero-wrap {
+    padding: 112px 0px;
+    text-align: center;
+    background-image: var(--bg-gradient), url(../images/hero-image-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: var(--dark);
 }
-
-.big-banner-title {
-    width: 496px;
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero-wrap {
+        background-image: var(--bg-gradient), url(../images/hero-image-mobile-2X.jpg);
+    }
+}
+.hero-title {
+    max-width: 318px;
+    margin: 0 auto;
     font-weight: 700;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 35px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-bg);
 }
-.big-banner-btn {
+.hero-btn {
     display: inline-block;
     min-width: 169px;
     height: 56px;
-    margin-top: 48px;
+    margin-top: 72px;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--primary-brand);
     color: var(--primary-bg);
@@ -204,7 +206,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: var(--transition-bg-color), var(--transition-color), var(--transition-box-shadow);
 }
-.big-banner-btn:is(:hover, :focus) {
+.hero-btn:is(:hover, :focus) {
     background-color: var(--hover-focus);
     color: var(--primary-bg);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

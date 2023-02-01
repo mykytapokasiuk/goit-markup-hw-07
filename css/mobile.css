@@ -1,4 +1,7 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
+    .hero > .container {
+        width: 428px;
+    }
     .our-strengths > .container {
         width: 426px;
     }

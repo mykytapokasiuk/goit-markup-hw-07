@@ -1,4 +1,21 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
+    /*!HERO*/
+    .hero > .container {
+        width: 100%;
+        max-width: 1440px;
+    }
+    .hero-wrap {
+        padding: 188px 0;
+        background-image: var(--bg-gradient), url(../images/hero-image-desktop.jpg);
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .hero-wrap {
+            background-image: var(--bg-gradient), url(../images/hero-image-desktop-2X.jpg);
+        }
+    }
+    .hero-btn {
+        margin-top: 48px;
+    }
     /*!OUR STRENGTHS*/
     .our-strengths {
         padding: 120px 0 0;
