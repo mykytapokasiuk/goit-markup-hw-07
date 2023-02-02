@@ -1,4 +1,10 @@
 @media screen and (min-width: 428px) {
+    .header > .container {
+        width: 428px;
+    }
+    .menu-contacts-tel {
+        font-size: 36px;
+    }
     .hero > .container {
         width: 428px;
     }
@@ -13,5 +19,20 @@
     }
     .footer > .container {
         width: 426px;
+    }
+    .modal {
+        width: 408px;
+        height: auto;
+        min-height: 576px;
+    }
+    .mf-list-item {
+        width: 360px;
+    }
+    .modal-form-textarea {
+        width: 360px;
+    }
+    .user-ready-label {
+        flex-wrap: nowrap;
+        justify-content: left;
     }
 }

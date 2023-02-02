@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="./css/desktop.css" />
     </head>
     <body>
-        <!-- <header class="header">
+        <header class="header">
             <div class="container header-container">
                 <nav class="header-navigation">
                     <a class="header-logo" href="./index.html"
@@ -57,29 +57,31 @@
                         >
                     </li>
                 </ul>
-                <button class="menu-open-btn">
+                <button class="menu-open-btn" type="button" data-menu-open>
                     <svg class="menu-open-icon" width="32" height="22">
                         <use href="./images/icons.svg#icon-menu-hamburger"></use>
                     </svg>
                 </button>
             </div>
-            <div class="mob-menu">
+            <div class="mob-menu is-hidden" data-menu>
                 <div class="container">
                     <div class="mob-menu-top">
-                        <button class="menu-close-btn">
-                            <svg class="menu-close-icon" width="24" height="24">
+                        <button class="menu-close-btn" type="button" data-menu-close>
+                            <svg class="menu-close-icon" width="8" height="8">
                                 <use href="./images/icons.svg#icon-close-icon-mob"></use>
                             </svg>
                         </button>
-                        <nav class="menu-navigation">
-                            <ul class="menu-list list">
-                                <li class="menu-item">
-                                    <a class="menu-link" href="./index.html">Studio</a>
+                        <nav class="mob-menu-navigation">
+                            <ul class="mob-menu-list list">
+                                <li class="mob-menu-item">
+                                    <a class="mob-menu-link current" href="./index.html">Studio</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a class="menu-link" href="./portfolio.html">Portfolio</a>
+                                <li class="mob-menu-item">
+                                    <a class="mob-menu-link" href="./portfolio.html">Portfolio</a>
                                 </li>
-                                <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
+                                <li class="mob-menu-item">
+                                    <a class="mob-menu-link" href="">Contacts</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -96,10 +98,60 @@
                                 >
                             </li>
                         </ul>
+                        <ul class="mob-social-list list">
+                            <li class="ms-list-item">
+                                <a
+                                    class="ms-item-link"
+                                    target="_blank"
+                                    rel="noreferrer noopener nofollow"
+                                    href=""
+                                >
+                                    <svg class="ms-item-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="ms-list-item">
+                                <a
+                                    class="ms-item-link"
+                                    target="_blank"
+                                    rel="noreferrer noopener nofollow"
+                                    href=""
+                                >
+                                    <svg class="ms-item-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="ms-list-item">
+                                <a
+                                    class="ms-item-link"
+                                    target="_blank"
+                                    rel="noreferrer noopener nofollow"
+                                    href=""
+                                >
+                                    <svg class="ms-item-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="ms-list-item">
+                                <a
+                                    class="ms-item-link"
+                                    target="_blank"
+                                    rel="noreferrer noopener nofollow"
+                                    href=""
+                                >
+                                    <svg class="ms-item-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </header> -->
+        </header>
         <main>
             <section class="hero">
                 <div class="container">
@@ -172,7 +224,7 @@
                 </div>
             </section>
             <!-- What are we doing -->
-            <!-- <section class="our-projects">
+            <section class="our-projects">
                 <div class="container">
                     <h2
                         class="our-projects-title"
@@ -206,9 +258,9 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
             <!-- Out team -->
-            <!-- <section class="our-team">
+            <section class="our-team">
                 <div class="container">
                     <h2
                         class="our-team-title"
@@ -465,7 +517,7 @@
                         </li>
                     </ul>
                 </div>
-            </section> -->
+            </section>
             <!-- Customers -->
             <section class="customers">
                 <div class="container">
@@ -554,7 +606,7 @@
                 </div>
             </section>
         </main>
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="container footer-container">
                 <div class="footer-logo-container">
                     <a class="footer-logo" href="./index.html"
@@ -639,7 +691,7 @@
                     </form>
                 </div>
             </div>
-        </footer> -->
+        </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <div class="modal-container">
@@ -741,7 +793,7 @@
         <script>
             AOS.init();
         </script>
-        <!-- <script src="./js/mobile-menu.js"></script> -->
         <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
     </body>
 </html>

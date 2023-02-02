@@ -1,4 +1,26 @@
 @media screen and (min-width: 768px) {
+    /*!HEADER*/
+    .header > .container {
+        width: 768px;
+    }
+    .header-logo {
+        margin-right: 120px;
+    }
+    .header-link {
+        padding: 24px 0 22px;
+    }
+    .header-contacts-list {
+        flex-direction: column;
+        gap: 4px;
+        padding: 24px 0 10px;
+    }
+    .header-contacts-mail,
+    .header-contacts-tel {
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
     /*!HERO*/
     .hero > .container {
         width: 768px;
