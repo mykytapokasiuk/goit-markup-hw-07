@@ -23,15 +23,14 @@
     }
     /*!HERO*/
     .hero > .container {
-        width: 100%;
         max-width: 1440px;
     }
-    .hero-wrap {
+    .hero {
         padding: 188px 0;
         background-image: var(--bg-gradient), url(../images/hero-image-desktop.jpg);
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-wrap {
+        .hero {
             background-image: var(--bg-gradient), url(../images/hero-image-desktop-2X.jpg);
         }
     }

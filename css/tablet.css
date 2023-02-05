@@ -25,12 +25,12 @@
     .hero > .container {
         width: 768px;
     }
-    .hero-wrap {
+    .hero {
         padding: 112px 0 108px;
         background-image: var(--bg-gradient), url(../images/hero-image-tablet.jpg);
     }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-        .hero-wrap {
+        .hero {
             background-image: var(--bg-gradient), url(../images/hero-image-tablet-2X.jpg);
         }
     }
