@@ -141,4 +141,9 @@
     .subscribe-form {
         margin-top: 16px;
     }
+
+    /**PORTFOLIO PAGE STYLES*/
+    .finished-products {
+        padding: 96px 0px 120px;
+    }
 }

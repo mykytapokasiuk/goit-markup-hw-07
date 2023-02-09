@@ -25,14 +25,36 @@
         height: auto;
         min-height: 576px;
     }
+    .close-icon-btn {
+        top: 24px;
+    }
+    .modal-form {
+        margin-top: 16px;
+    }
     .mf-list-item {
         width: 360px;
     }
     .modal-form-textarea {
         width: 360px;
     }
+    .mf-user-ready {
+        margin-top: 16px;
+    }
     .user-ready-label {
         flex-wrap: nowrap;
         justify-content: left;
+    }
+    .modal-form-btn {
+        margin-top: 24px;
+    }
+
+    /**PORTFOLIO PAGE STYLES*/
+    .finished-products > .container {
+        width: 428px;
+    }
+    .filter-buttons-list {
+        justify-content: left;
+        column-gap: 24px;
+        row-gap: 16px;
     }
 }

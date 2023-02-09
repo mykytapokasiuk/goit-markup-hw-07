@@ -94,4 +94,28 @@
     .subscribe-form {
         gap: 24px;
     }
+
+    /**PORTFOLIO PAGE STYLES*/
+    .finished-products {
+        padding: 64px 0 96px;
+    }
+    .finished-products > .container {
+        width: 768px;
+    }
+    .filter-buttons-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .filter-btn {
+        padding: 12px 24px;
+    }
+    .finished-products-list {
+        row-gap: 72px;
+        column-gap: 24px;
+        margin-top: 64px;
+    }
+    .finished-products-item {
+        width: calc((100% - 24px) / 2);
+    }
 }
