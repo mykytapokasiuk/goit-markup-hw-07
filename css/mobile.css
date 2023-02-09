@@ -20,13 +20,11 @@
     .footer > .container {
         width: 426px;
     }
-    .modal {
-        width: 408px;
-        height: auto;
-        min-height: 576px;
+    .modal-container {
+        padding: 72px 16px 24px;
     }
-    .close-icon-btn {
-        top: 24px;
+    .modal {
+        width: 392px;
     }
     .modal-form {
         margin-top: 16px;

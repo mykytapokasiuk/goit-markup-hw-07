@@ -146,4 +146,15 @@
     .finished-products {
         padding: 96px 0px 120px;
     }
+    .finished-products > .container {
+        width: 1158px;
+    }
+    .finished-products-list {
+        row-gap: 48px;
+        column-gap: 24px;
+        margin-top: 72px;
+    }
+    .finished-products-item {
+        width: calc((100% - 48px) / 3);
+    }
 }
